@@ -8,4 +8,4 @@
     register: who
   - name: "Result"
     debug:
-      msg: "{{who}}"
+      msg: "{{who.stdout_lines}}"
